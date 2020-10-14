@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Anes Abismail</title>
+    
+    
+    
+    <link>https://anesabml.github.io/posts/</link>
+    <description>Recent content in Posts on Anes Abismail</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright 2020 Anes Abismail.</copyright>
+    <lastBuildDate>Sun, 16 Aug 2020 13:37:30 +0100</lastBuildDate>
+    
+	<atom:link href="https://anesabml.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Autostart scrcpy on device connection</title>
+      <link>https://anesabml.github.io/posts/auto-scrcpy/</link>
+      <pubDate>Sun, 16 Aug 2020 13:37:30 +0100</pubDate>
+      
+      <guid>https://anesabml.github.io/posts/auto-scrcpy/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://images.unsplash.com/photo-1541345023926-55d6e0853f4b&#34;/&gt;
+          
+        
+        
+        
+          In this blog post I will show you how I automated the process of launching scrcpy every time I plug my phone.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>What I learned from 30 days of doing LeetCode problems</title>
+      <link>https://anesabml.github.io/posts/30-days-leetcode/</link>
+      <pubDate>Tue, 07 Jul 2020 11:36:47 +0100</pubDate>
+      
+      <guid>https://anesabml.github.io/posts/30-days-leetcode/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://images.unsplash.com/photo-1506452819137-0422416856b8&#34;/&gt;
+          
+        
+        
+        
+          Last month after I finished my Product Hunt client Android app I decided to try something new and challenge myself.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Getting started with Zsh</title>
+      <link>https://anesabml.github.io/posts/zsh-guide/</link>
+      <pubDate>Thu, 02 Jul 2020 13:12:06 +0100</pubDate>
+      
+      <guid>https://anesabml.github.io/posts/zsh-guide/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://images.unsplash.com/photo-1493020258366-be3ead1b3027&#34;/&gt;
+          
+        
+        
+        
+          Zsh, also called Z shell, is a Unix shell that can be used as an alternative to Bash and Fish. let&#39;s talk about it and how to get started using it.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Dagger Hilt basics</title>
+      <link>https://anesabml.github.io/posts/dagger-hilt/</link>
+      <pubDate>Tue, 23 Jun 2020 08:00:00 +0100</pubDate>
+      
+      <guid>https://anesabml.github.io/posts/dagger-hilt/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://images.unsplash.com/photo-1589507811823-3ca98131076c&#34;/&gt;
+          
+        
+        
+        
+          Dagger Hilt is the new Dependency Injection library introduced by Google, it&#39;s the recommended approach for DI on Android, in this blog post I try to explain some basics about Dagger Hilt.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

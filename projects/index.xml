@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Anes Abismail</title>
+    
+    
+    
+    <link>https://anesabml.github.io/projects/</link>
+    <description>Recent content in Projects on Anes Abismail</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright 2020 Anes Abismail.</copyright>
+    
+	<atom:link href="https://anesabml.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hunt</title>
+      <link>https://anesabml.github.io/projects/hunt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://anesabml.github.io/projects/hunt/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://anesabml.github.io/images/screenshots/hunt/hunt_dark.png&#34;/&gt;
+          
+        
+        
+        
+          Unofficial client for Product Hunt.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Quotey</title>
+      <link>https://anesabml.github.io/projects/quotey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://anesabml.github.io/projects/quotey/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://anesabml.github.io/images/screenshots/quotey/quotey1.png&#34;/&gt;
+          
+        
+        
+        
+          A quote app that sends you a quote when you need it, you can specify the date and also the days you want to receive the quote
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+body.dark-theme {
+  --background: #161616;
+  --background-secondary: #3b3d42;
+  --header: #121212;
+  --color: #a9a9b3;
+  --color-secondary: #73747b;
+  --border-color: #4a4b50;
+}
+.logo__cursor {
+  display: inline-block;
+  width: 10px;
+  height: 1rem;
+  background: #2cb67d;
+  margin-left: 5px;
+  border-radius: 1px;
+  -webkit-animation: cursor 1s infinite;
+  animation: cursor 1s infinite;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+figure {
+  display: table;
+  max-width: 100%;
+  margin: 25px 0;
+}
+
+.post-cover {
+  margin: 40px -50px;
+  width: 760px;
+  max-width: 760px;
+  margin: 0 auto;
+}

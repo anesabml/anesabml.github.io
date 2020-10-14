@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        What I learned from 30 days of doing LeetCode problems ::
+        Anes Abismail — A mobile developer
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Last month after I finished my Product Hunt client Android app I decided to try something new and challenge myself, so I ended up choosing to do LeetCode problems, my goal was to do one problem every day no matter what, I choose to do them in the morning because I feel more energetic and it&amp;rsquo;s a good way to start your day with a challenge. In this blog post, I will be sharing with you my mistakes and what I learned from this experience."
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://anesabml.github.io/posts/30-days-leetcode/" />
+
+
+
+
+
+<link rel="stylesheet" href="https://anesabml.github.io/assets/style.css" />
+
+<link rel="stylesheet" href="https://anesabml.github.io/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="https://anesabml.github.io/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="https://anesabml.github.io/img/favicon.png" />
+
+
+<link href="https://anesabml.github.io/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://anesabml.github.io/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://anesabml.github.io/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://anesabml.github.io/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://anesabml.github.io/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://anesabml.github.io/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1506452819137-0422416856b8"/>
+
+<meta name="twitter:title" content="What I learned from 30 days of doing LeetCode problems"/>
+<meta name="twitter:description" content="Last month after I finished my Product Hunt client Android app I decided to try something new and challenge myself."/>
+
+
+
+<meta property="og:title" content="What I learned from 30 days of doing LeetCode problems" />
+<meta property="og:description" content="Last month after I finished my Product Hunt client Android app I decided to try something new and challenge myself." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://anesabml.github.io/posts/30-days-leetcode/" />
+<meta property="og:image" content="https://images.unsplash.com/photo-1506452819137-0422416856b8" />
+<meta property="article:published_time" content="2020-07-07T11:36:47+01:00" />
+<meta property="article:modified_time" content="2020-07-07T11:36:47+01:00" /><meta property="og:site_name" content="Anes Abismail" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >./gradlew</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/posts">Posts</a></li>
+        
+      
+        
+          <li><a href="/projects">Projects</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/posts">Posts</a></li>
+      
+    
+      
+        <li><a href="/projects">Projects</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">What I learned from 30 days of doing LeetCode problems</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2020-07-07
+        </span>
+
+        
+          
+        
+      
+
+      
+
+
+      
+        <span class="post-read-time"
+          >— 4 min read</span
+        >
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          <a href="https://anesabml.github.io/tags/problem-solving/">#Problem-Solving</a>&nbsp;
+        
+          <a href="https://anesabml.github.io/tags/algorithms/">#Algorithms</a>&nbsp;
+        
+      </span>
+    
+
+    
+      <figure class="post-cover">
+        
+          <img src="https://images.unsplash.com/photo-1506452819137-0422416856b8" alt="Project Deadline." />
+        
+
+        
+          <figcaption class="center">Photo by <a href="https://unsplash.com/@ikukevk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kevin Ku</a> on <a href="https://unsplash.com/s/photos/coding?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption>
+        
+      </figure>
+    
+
+    <div class="post-content">
+      
+      <p>Last month after I finished my Product Hunt client Android app I decided to try something new and challenge myself, so I ended up choosing to do <a href="http://leetcode.com/">LeetCode</a> problems, my goal was to do one problem every day no matter what, I choose to do them in the morning because I feel more energetic and it&rsquo;s a good way to start your day with a challenge. In this blog post, I will be sharing with you my mistakes and what I learned from this experience.</p>
+<h1 id="consistency">Consistency:</h1>
+<p>My goal was to do one problem every day and develop a habit, at the beginning it didn&rsquo;t feel natural as I was trying something new and uncomfortable, but I can say that after two weeks it becomes natural every morning I pick up my laptop and notebook and start solving a problem without even noticing, it felt like a morning routine. I still missed some days but I made sure that I don&rsquo;t miss two days in a row.</p>
+<h1 id="coding">Coding</h1>
+<p>As developers, we feel that we need to start coding as fast as we can and beet our last record of typing, but if you started solving a problem with coding you will be stuck and you feel overwhelmed because you didn&rsquo;t understand what you are trying to solve yet. Pick up an iPad or a pen and a piper (if you are poor like me) and start writing your inputs, outputs, try to visualize the problem, write down your thought process and then try to solve it in a simple intuitive way, after that you can start coding. Here is the step that I usually take to solve a problem:</p>
+<ol>
+<li>Write down the input and the expected output.</li>
+<li>Understand the problem by asking yourself different questions about it.</li>
+<li>Try to identify Data Structures that might help you solve the problem.</li>
+<li>Write down the steps required to solve the problem.</li>
+<li>Write a brute force solution then try to improve it using different Data Structures and Algorithms.</li>
+<li>Code.</li>
+</ol>
+<h1 id="share-and-learn">Share and learn</h1>
+<p>After I solve a problem I always make sure to check other solutions and explanations, this helps me learn different ways of thinking and problem-solving techniques, also I learned to justify my choices eg: why did I use a LinkedList instead of an Array, etc&hellip;</p>
+<p>I didn&rsquo;t mind checking solutions that are written in a different language than the one I use (Kotlin, Java) as that helps me learn more about other languages and different syntax.</p>
+<p>One of the main resources to check other solutions are the Discuss tab on <a href="http://leetcode.com/">LeetCode</a>, also <a href="http://geeksforgeeks.org/">GeeksForGeeks</a> is a great resource, and sometimes I check some Youtube videos.</p>
+<h1 id="documentation">Documentation</h1>
+<p>I made sure that I track and document what I learned every day, even if it&rsquo;s simple, this helps me remember and reflect on my past self. and stay motivated to do continue learning and solving problems.</p>
+<h1 id="uncomfortable">Uncomfortable</h1>
+<p>If you know me you know that I thrive when I see an error or a problem to solve, my friends were always blown away by this. I used to hunt errors and challenges. but after doing Android for a while I got a little comfortable (don&rsquo;t get me wrong there&rsquo;s always something new to learn in Android from Functional programming, Concurrency, new Kotlin features, etc..) But I didn&rsquo;t have the opportunity to challenge myself very ofter. Solving <a href="http://leetcode.com/">LeetCode</a> problems brought back that feeling of excitement and eagerness to solve problems, it didn&rsquo;t matter if I fail or if it took me 2 hours to solve I just made sure that I learn something new.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>My goal of this experiment was not to prepare for coding interviews or to apply for FANG companies, My goal was to challenge myself and get out of my comfort zone, and maybe get into Competitive Programming (who knows). I will still do one problem every day and commit to my <a href="https://github.com/anesabml/leetCode">repository</a> because it&rsquo;s a habit now and it&rsquo;s been one of the best experiences, as I had the opportunity to fail and thus learn more. I hope this will give you the inspiration to take action and challenge yourself more and just have fun.</p>
+<p>Thank you for reading, I hope you learned something new from this blog post. feel free to reach out on <a href="https://twitter.com/anesabml">Twitter</a> if you have any questions.</p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Read other posts</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="https://anesabml.github.io/posts/auto-scrcpy/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Autostart scrcpy on device connection</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="https://anesabml.github.io/posts/zsh-guide/">
+                  <span class="button__text">Getting started with Zsh</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+    
+      
+        
+
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">© Copyright 2020 Anes Abismail.</div>
+      
+  </div>
+</footer>
+
+<script src="https://anesabml.github.io/assets/main.js"></script>
+<script src="https://anesabml.github.io/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-175312861-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+  </body>
+</html>

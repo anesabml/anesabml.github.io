@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kotlin on Anes Abismail</title>
+    
+    
+    
+    <link>https://anesabml.github.io/tags/kotlin/</link>
+    <description>Recent content in Kotlin on Anes Abismail</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright 2020 Anes Abismail.</copyright>
+    <lastBuildDate>Tue, 23 Jun 2020 08:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://anesabml.github.io/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dagger Hilt basics</title>
+      <link>https://anesabml.github.io/posts/dagger-hilt/</link>
+      <pubDate>Tue, 23 Jun 2020 08:00:00 +0100</pubDate>
+      
+      <guid>https://anesabml.github.io/posts/dagger-hilt/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://images.unsplash.com/photo-1589507811823-3ca98131076c&#34;/&gt;
+          
+        
+        
+        
+          Dagger Hilt is the new Dependency Injection library introduced by Google, it&#39;s the recommended approach for DI on Android, in this blog post I try to explain some basics about Dagger Hilt.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

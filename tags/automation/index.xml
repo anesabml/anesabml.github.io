@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>automation on Anes Abismail</title>
+    
+    
+    
+    <link>https://anesabml.github.io/tags/automation/</link>
+    <description>Recent content in automation on Anes Abismail</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright 2020 Anes Abismail.</copyright>
+    <lastBuildDate>Sun, 16 Aug 2020 13:37:30 +0100</lastBuildDate>
+    
+	<atom:link href="https://anesabml.github.io/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Autostart scrcpy on device connection</title>
+      <link>https://anesabml.github.io/posts/auto-scrcpy/</link>
+      <pubDate>Sun, 16 Aug 2020 13:37:30 +0100</pubDate>
+      
+      <guid>https://anesabml.github.io/posts/auto-scrcpy/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://images.unsplash.com/photo-1541345023926-55d6e0853f4b&#34;/&gt;
+          
+        
+        
+        
+          In this blog post I will show you how I automated the process of launching scrcpy every time I plug my phone.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

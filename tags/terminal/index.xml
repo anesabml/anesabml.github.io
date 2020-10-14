@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on Anes Abismail</title>
+    
+    
+    
+    <link>https://anesabml.github.io/tags/terminal/</link>
+    <description>Recent content in Terminal on Anes Abismail</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright 2020 Anes Abismail.</copyright>
+    <lastBuildDate>Thu, 02 Jul 2020 13:12:06 +0100</lastBuildDate>
+    
+	<atom:link href="https://anesabml.github.io/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting started with Zsh</title>
+      <link>https://anesabml.github.io/posts/zsh-guide/</link>
+      <pubDate>Thu, 02 Jul 2020 13:12:06 +0100</pubDate>
+      
+      <guid>https://anesabml.github.io/posts/zsh-guide/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://images.unsplash.com/photo-1493020258366-be3ead1b3027&#34;/&gt;
+          
+        
+        
+        
+          Zsh, also called Z shell, is a Unix shell that can be used as an alternative to Bash and Fish. let&#39;s talk about it and how to get started using it.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
