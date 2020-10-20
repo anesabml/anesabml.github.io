@@ -6,6 +6,7 @@ body.dark-theme {
   --color-secondary: #73747b;
   --border-color: #4a4b50;
 }
+
 .logo__cursor {
   display: inline-block;
   width: 10px;
@@ -17,19 +18,7 @@ body.dark-theme {
   animation: cursor 1s infinite;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-figure {
-  display: table;
-  max-width: 100%;
-  margin: 25px 0;
-}
-
 .post-cover {
-  margin: 40px -50px;
-  width: 760px;
-  max-width: 760px;
-  margin: 0 auto;
+  margin: 20px 0;
+  width: 100%;
 }
